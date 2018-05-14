@@ -10,7 +10,15 @@ function logShout(string){
 
 logShout("hello")
 
-function whisper(string) {
-  return string.toLowerCase()
+function whisper(string){
+  return string.toLowerCase();
 }
- 
+
+whisper("HELLO")
+
+function logWhisper(string){
+  return console.log(string.toLowerCase())
+}
+
+logWhisper("HELLO")
+
