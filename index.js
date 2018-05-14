@@ -3,6 +3,7 @@ function shout(string) {
 }
 
 shout("hello")
+
 function logShout(string){
   return console.log(string.toUpperCase())
 }
